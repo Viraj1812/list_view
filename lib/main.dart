@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:list_view/listview_builder.dart';
-import 'package:list_view/listview_seperated.dart';
-import 'package:list_view/my_home_page.dart';
+import 'package:list_view/listview_custom.dart';
 
 void main() {
   runApp(
     const MaterialApp(
       // home: MyHomePage(),
       // home: ListViewBuilder(),
-      home: ListViewSeperated(),
+      // home: ListViewSeperated(),
+      home: ListViewCustom(),
     ),
   );
 }
